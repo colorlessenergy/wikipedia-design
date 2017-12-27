@@ -1,0 +1,39 @@
+- title: news
+  image: images/kitty.jpg
+  image-desc: kitten in the wild
+  class: blue
+  random:
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+    
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+
+- title: did you know
+  image: images/shanghai.jpg
+  image-desc: shanghai city
+  class: green
+  random:
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+    
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+
+
+- title: on this day
+  image: images/sun.jpg
+  image-desc: image of the sun
+  class: blue
+  random:
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+    
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.
+
+    - fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus lacinia ligula ac vestibulum. Praesent sit amet lorem in nisi.

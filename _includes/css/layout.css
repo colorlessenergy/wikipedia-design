@@ -1,0 +1,55 @@
+aside {
+    display: flex;
+    flex-flow: wrap;
+}
+
+header div {
+    display: flex;
+    height: 50px;
+}
+
+main {
+    margin: 0 30px;
+}
+
+article {
+    padding: 15px;
+}
+
+article.blue {
+    background-color: rgba(0, 112, 255, 0.1);
+    margin: 0 0 0 25px;
+    width: 380px;
+}
+
+article.blue h3 {
+    background-color: rgba(0, 112, 255, 0.4);
+    padding: 2px 5px;
+}
+
+article.green {
+    background-color: rgba(0, 128, 0, 0.1);
+    width: 420px;
+}
+
+article.green h3 {
+    background-color: rgba(0, 128, 0, 0.4);
+    padding: 2px 5px;
+}
+
+
+nav {
+    width: 320px;
+}
+
+img {
+    max-width: 320px;
+}
+
+.container {
+    flex-direction: column
+}
+
+.section {
+    margin: 0 30px;
+}

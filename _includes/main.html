@@ -1,0 +1,60 @@
+<main>
+    <section class="nav nav--layout">
+        <div>
+            <h2>Welcome to Wikipedia</h2>
+            <p>Cool as heck mang</p>
+            <p>5,537,741 articles in English</p>
+        </div>
+        <ul class="content">
+            <li><a href="#">art</a></li>
+            <li><a href="#">biography</a></li>
+            <li><a href="#">history</a></li>
+            <li><a href="#">geography</a></li>
+            <li><a href="#">Mathematics</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Society</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">All portals</a></li>
+        </ul>
+    </section>
+
+    <!-- main content  -->
+
+    <aside>
+        {% for article in site.data.articles %}
+        <article class="{{ article.class }}">
+            <h3>{{ article.title }}</h3>
+            <div class="img-content__divleft">
+                <img class="header-img_img" src="{{ article.image }}" alt="{{ article.image-desc}}">  
+                <p class="img-content__p">{{ article.image-desc }}</p>  
+            </div>
+            <p>{{ article.text }}</p>
+        
+            <p>Recently Featured <a href="#">Brian Munoz</a>, <a href="#">tim</a></p>
+        </article>
+        {% endfor %}
+        
+        {% for randomFact in site.data.random-facts %}
+        <article class="{{ randomFact.class }}">
+            <h3>{{ randomFact.title }}</h3>
+            <div class="img-content__divright">
+                <img class="header-img_img" src="{{ randomFact.image }}" alt="{{ randomFact.image-desc}}">  
+                <p class="img-content__p">{{ randomFact.image-desc }}</p>  
+            </div>
+            <ul class="img-content__ul">
+                {% for item in randomFact.random %}
+                <li><a href="#">{{ item.fact }}</a></li>
+                {% endfor %}
+            </ul>
+        </article>
+        {% endfor %}
+    </aside>
+    <section class="feature">
+        <h3 class="feature__h3">Today's featured picture</h3>
+
+        <div class="feature__div">
+            <img class="feature__img" src="images/buick.jpg" alt="a picture of a buick car">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id rhoncus est. Sed ac tellus vitae ante ullamcorper aliquam. Pellentesque gravida a orci quis sagittis. Nullam luctus libero non felis feugiat sodales. In at porttitor urna, non porttitor elit. Donec odio sapien, mollis a nibh id, maximus varius ligula.</p>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,29 @@
+<header>
+    <ul class="nav nav--end">
+        <li class="nav__li">
+            <span class="nav__span">{% include image/profile.svg %}</span>
+            Not logged in
+        </li>
+        <li><a href="#">Talk</a></li>
+        <li><a href="#">Contributions</a></li>
+        <li><a href="#">Create account</a></li>
+        <li><a href="#">Log in</a></li>
+    </ul>
+
+    <div>
+        <ul class="nav">
+            <li class="active">Main Page</li>
+            <li><a href="#">Talk</a></li> 
+        </ul>
+
+        <ul class="nav nav--end">
+            <li class="active">read</li>
+            <li><a href="#">view source</a></li> 
+            <li><a href="#">view history</a></li> 
+            <li class="nav__last-li">
+                <input placeholder="Search Wikipedia" type="text">
+                {% include image/magnifying-glass.svg %}
+            </li>
+        </ul>
+    </div>
+</header>
